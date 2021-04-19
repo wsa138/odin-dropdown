@@ -1,0 +1,17 @@
+.dropdown-container {
+background-color: blue;
+width: 20rem;
+height: 2rem;
+}
+
+.dropdown-btn {
+    background-color: red;
+}
+
+.items-container {
+    background-color: grey;
+}
+
+.dropdown-item {
+    background-color: green;
+}
