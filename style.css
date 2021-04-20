@@ -1,17 +1,25 @@
 .dropdown-container {
-background-color: blue;
-width: 20rem;
-height: 2rem;
+  font-size: 2rem;
+  width: 20rem;
 }
 
 .dropdown-btn {
-    background-color: red;
+  font-size: 1em;
+  width: 20rem;
+  background-image: linear-gradient(blue, purple);
+  color: white;
 }
 
 .items-container {
-    background-color: grey;
+  display: flex;
+  flex-direction: column;
+  display: none;
+  font-size: 1em;
+  background-image: linear-gradient(purple, blue);
 }
 
 .dropdown-item {
-    background-color: green;
+  background-image: linear-gradient(purple, blue);
+  font-size: 1em;
+  color: white;
 }
