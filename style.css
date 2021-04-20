@@ -5,9 +5,11 @@
 
 .dropdown-btn {
   font-size: 1em;
-  width: 20rem;
-  background-image: linear-gradient(blue, purple);
+  background-image: linear-gradient(to right, rgb(128, 0, 128), rgb(55, 0, 255));
   color: white;
+  width: auto;
+  text-align: center;
+  width: 20rem;
 }
 
 .items-container {
@@ -15,11 +17,16 @@
   flex-direction: column;
   display: none;
   font-size: 1em;
-  background-image: linear-gradient(purple, blue);
 }
 
 .dropdown-item {
-  background-image: linear-gradient(purple, blue);
+  background: linear-gradient(45deg, rgb(128, 0, 128), rgb(55, 0, 255));
   font-size: 1em;
   color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.dropdown-item:hover {
+  background: linear-gradient(45deg, rgb(129, 50, 129), rgb(122, 85, 255));;
 }
