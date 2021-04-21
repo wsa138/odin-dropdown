@@ -7,3 +7,4 @@ To use the dropdown menu, add div with the class of of "dropdown-container" cont
   A div with the class of "items-container".
 
   Anchor elements with the class of "dropdown-item".
+
